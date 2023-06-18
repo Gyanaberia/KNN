@@ -1,5 +1,1 @@
-<<<<<<< Updated upstream
 This is a temp file.
-=======
-This is a temp branch.
->>>>>>> Stashed changes
