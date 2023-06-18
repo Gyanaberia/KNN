@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler as SS
 from sklearn.neighbors import KNeighborsClassifier as K
 from sklearn.metrics import classification_report,confusion_matrix
 from sklearn.model_selection import train_test_split
-
+# gg this is temp file.
 d = pd.read_csv('knn_project-boy')
 scaler = SS()
 scaler.fit(d.drop('TARGET CLASS',axis=1))
