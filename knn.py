@@ -15,6 +15,8 @@ st= scaler.transform(d.drop('TARGET CLASS',axis=1))
 df=pd.DataFrame(data=st,columns=d.columns[:-1])
 X_train, x_test, y_train, y_test = train_test_split(df,d['TARGET CLASS'],test_size=0.30,random_state=80)
 
+
+
 r=[]
 j=0
 small_k=0
