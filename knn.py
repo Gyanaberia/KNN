@@ -9,6 +9,7 @@ from sklearn.metrics import classification_report,confusion_matrix
 from sklearn.model_selection import train_test_split
 # gg this is temp file.
 d = pd.read_csv('knn_projected')
+
 scaler = SS()
 scaler.fit(d.drop('TARGET CLASS',axis=1))
 st= scaler.transform(d.drop('TARGET CLASS',axis=1))
